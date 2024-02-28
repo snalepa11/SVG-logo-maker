@@ -2,6 +2,7 @@ const inquirer = require("inquirer")
 const {Circle, Square, Triangle} = require("./lib/shapes")
 const fs = require("fs")
 
+//create shape object passing data
 
 const questions = [
 {
@@ -11,18 +12,26 @@ const questions = [
 },
 {
     type: "input",
-    name: "text-color",
+    name: "textColor",
     message: "TEXT COLOR: Please enter the desired color of your text via keyword or hexidecimal characters"
 },
 {
     type: "list",
     name: "shape",
     message: "Please choose which image shape you would like to use",
-    choices: [Circle, Square, Triangle]
+    choices: ["Circle", "Square", "Triangle"]
 },
 {
     type: "input",
-    name: "shape-color",
+    name: "shapeColor",
     message: "SHPAE COLOR: Please choose the desired color of your shape via keyword or hexidecimal characters"
 }
 ]
+
+function init(){
+    inquirer.prompt(questions).then(answers => {
+        console.log(answers)
+    })
+}
+
+init()

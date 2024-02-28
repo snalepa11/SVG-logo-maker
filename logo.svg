@@ -1,9 +1,0 @@
-class Circle = <circle cx="25" cy="75" r="20"/>
-
-class Square =   <rect x="0" y="0" width="50" height="50" rx="10" ry="10" />
-
-class Triangle = <polygon points="150, 18 244, 182 56, 182" fill="blue" />
-
-
-
-module.exports = {Circle, Square, Triangle};
