@@ -28,4 +28,5 @@ MIT
 
 ## Links 
 * Respositoy: https://github.com/snalepa11/SVG-logo-maker
-* Deployed application:  https://snalepa11.github.io/SVG-logo-maker/ 
+* Deployed application:  https://snalepa11.github.io/SVG-logo-maker/
+
