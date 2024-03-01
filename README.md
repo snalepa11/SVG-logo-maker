@@ -9,7 +9,8 @@ This is a node.js command line application which creates an SVG logo. The user w
 4. Answer each prompted question in the command line
 5. Once completed, your responses will be documented in the logo.svg file, and your svg logo will be created
 
-## Demo 
+## Demo
+https://github.com/snalepa11/SVG-logo-maker/assets/131091044/3fc7dfd2-08b7-4f3a-aab6-15ea406dfb83
 
 ## Intallation Instructions 
 1. Clone the repository: https://github.com/snalepa11/SVG-logo-maker
